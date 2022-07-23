@@ -1,2 +1,2 @@
 # thadura
-My personal website!
+My personal static website utilizing simple html/css/js - work in progress...
