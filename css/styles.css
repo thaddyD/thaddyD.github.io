@@ -1,0 +1,36 @@
+html, body
+{
+    height:100%;
+    margin:0;
+    padding:0;
+    background-color:#f7f4e2;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin:0;
+    padding:0;
+    text-align: center;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    border: 10px solid white;
+    padding: 10px;
+  }
+
+.wavesBg {
+    background-image: url("../img/waves-top.svg"), url("../img/waves-bottom.svg");
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.stepsBg {
+    background-image: url("../img/steps-top.svg"), url("../img/steps-bottom.svg");
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
