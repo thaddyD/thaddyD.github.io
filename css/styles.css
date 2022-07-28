@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
 html, body
 {
     height:100%;
@@ -10,17 +16,75 @@ h1, h2, h3, h4, h5, h6 {
     margin:0;
     padding:0;
     text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color:rgb(61, 45, 13);
 }
 
-.center {
+.card {
+    background-color: white;
+    align-items: center;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
     margin: auto;
-    width: 50%;
-    border: 10px solid white;
-    padding: 10px;
-  }
 
-.wavesBg {
-    background-image: url("../img/waves-top.svg"), url("../img/waves-bottom.svg");
+    /* Box Shadow */
+    border-radius: 20px;
+    box-shadow: -12px -12px #e8e4d0;
+    -moz-box-shadow: -12px -12px #e8e4d0;
+    -webkit-box-shadow: -12px -12px #e8e4d0;
+    -o-box-shadow: -12px -12px #e8e4d0;
+
+    /* Overflow */
+    max-width: 90%;
+    max-height: 90%;
+    overflow: auto;
+}
+
+/* Responsive Sizing for Mobile */
+.main-card-size {
+    width: 80%;
+    height: 25%;
+}
+.main-title {
+    font-size: 10vw;
+    color:rgb(61, 45, 13);
+    padding: 10px;
+    margin: 0;
+}
+.main-subtext {
+    margin: 9px;
+    font-size: 4vw;
+}
+
+/* Responsive Sizing for Tablets */
+@media only screen and (min-width: 600px) {
+    .main-card-size {
+        width: 75%;
+        height: 35%;
+    }
+    .main-title { font-size: 8vw; }
+    .main-subtext { font-size: 4vw; }
+}
+
+/* Responsive Sizing for Desktop */
+@media only screen and (min-width: 800px) {
+    .main-card-size {
+        width: 70%;
+        height: 40%;
+    }
+    .main-title { font-size: 7vw; }
+    .main-subtext { font-size: 25px; }
+}
+
+/* Background images */
+.waves {
+    background-image: url("../img/waves-bottom.svg"), url("../img/waves-top.svg");
     height: 100%;
     background-size: cover;
     background-position: center;
@@ -34,3 +98,47 @@ h1, h2, h3, h4, h5, h6 {
     background-position: center;
     background-repeat: no-repeat;
 }
+
+/* Cloud Animation */
+.clouds {
+    background-image: url("../img/clouds-top.svg"), url("../img/waves-bottom.svg");
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation-name: example;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+    0%   {background-image: url("../img/clouds-top.svg"), url("../img/waves-bottom.svg");}
+    25%  {background-image: url("../img/clouds-2.svg"), url("../img/waves-bottom.svg");}
+    50%  {background-image: url("../img/clouds-3.svg"), url("../img/waves-bottom.svg");}
+    75%  {background-image: url("../img/clouds-4.svg"), url("../img/waves-bottom.svg");}
+    100% {background-image: url("../img/clouds-top.svg"), url("../img/waves-bottom.svg");}
+}
+
+/* Typing Animation */
+/*
+.typer {
+    display: grid;
+    place-items: center;
+    width: 18ch;
+    animation: typing 2s steps(19), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
+*/
