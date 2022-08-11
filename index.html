@@ -1,23 +1,228 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Thaddeus Dziura.</title>
-        <link rel="stylesheet" href="./css/styles.css">
-        <link rel="icon" href="./img/code.ico" type="image/x-icon">
-        <script src="js/script.js"></script>
-    </head>
-    <body>
-        <div class="clouds">
-            <div class="card main-card-size">
-                <h1 class="main-title">Thaddeus Dziura.</h1>
-                <h5 class="main-subtext typer">Welcome to my page!</h5>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Thaddeus Dziura.</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="icon" href="./assets/img/code.ico" type="image/x-icon">
+    <script src="./assets/js/script.js"></script>
+</head>
+
+<body>
+    <section id="home" class="container column clouds poly-grid">
+        <div id="home-grid">
+            <!--Bar on the bottom for arrow-->
+            <div class="home-card-one card container">
+                <a href="#home" class="title">/*THADDEUS DZIURA*/</a>
+            </div>
+            <div class="home-card-two card container">
+                <a href="#about" class="title">%ABOUT</a>
+            </div>
+            <div class="home-card-three card container">
+                <a href="#education" class="title">//EDU</a>
+            </div>
+            <div class="home-card-four card container">
+                <a href="#projects" class="title">#PROJ</a>
             </div>
         </div>
-        <div class="waves">
-            <h1 class="center">test2</h1>
+    </section>
+    <section id="about" class="container about-bg about-waves column">
+        <div class="container row">
+            <h1 class="about-card-two card">%About Me</h1>
         </div>
-    </body>
+        <div id="about-grid">
+            <div class="card about-card-one">
+                <div class="console">
+                    <span style="color:#C586C0;">#include</span>
+                    <span style="color:#CE9178;">&#60aboutMe.h&#62</span>
+                    <br>
+                    <br>
+                    <span style="color:#6796E6;">class </span>
+                    <span style="color:#4EC9B0;">Thaddeus</span>
+                    <span>: </span>
+                    <span style="color:#6796E6;">public </span>
+                    <span>Student</span>
+                    <span style="color:#ffd700;">{</span>
+                    <ul>
+                        <span style="color:#DCDCAA;">Thaddeus</span>
+                        <span style="color:#C586C0;">() {</span>
+                        <ul>
+                            <span style="color:#4EC9B0;">string </span>
+                            <span style="color:#9CDCFE;">name </span>
+                            <span>= </span>
+                            <span style="color:#CE9178;">"Thaddeus Dziura"</span>
+                            <span>;</span>
+                            <br>
+                            <span style="color:#4EC9B0;">string </span>
+                            <span style="color:#9CDCFE;">location </span>
+                            <span>= </span>
+                            <span style="color:#CE9178;">"San Jose, CA"</span>
+                            <span>;</span>
+                            <br>
+                            <span style="color:#4EC9B0;">vector&#60string&#62 </span>
+                            <span style="color:#9CDCFE;">hobbies </span>
+                            <span>= </span>
+                            <span style="color:#6796E6;">{</span>
+                            <ul>
+                                <span style="color:#CE9178;">"Hiking"</span>
+                                <span>,</span>
+                                <br>
+                                <span style="color:#CE9178;">"Basketball"</span>
+                                <span>,</span>
+                                <br>
+                                <span style="color:#CE9178;">"Photography"</span>
+                                <span>,</span>
+                                <br>
+                                <span style="color:#CE9178;">"Keyboard/Computer Tinkering"</span>
+                                <span>,</span>
+                                <br>
+                                <span style="color:#CE9178;">"Stock Market Trading"</span>
+                                <span>,</span>
+                                <br>
+                            </ul>
+                            <span style="color:#6796E6;">}</span>
+                            <span>;</span>
+                            <br>
+                        </ul>
+                        <span style="color:#C586C0;">}</span>
+                        <br>
+                        <span style="color:#6796E6;">void </span>
+                        <span style="color:#DCDCAA;">education</span>
+                        <span style="color:#C586C0;">() {</span>
+                        <ul>
+                            <span style="color:#4EC9B0;">string </span>
+                            <span style="color:#9CDCFE;">school </span>
+                            <span>= </span>
+                            <span style="color:#CE9178;">"UCDavis"</span>
+                            <span>;</span>
+                            <br>
+                            <span style="color:#6796E6;">int </span>
+                            <span style="color:#9CDCFE;">expGrad </span>
+                            <span>= </span>
+                            <span style="color:#B5CEA8;">June 2024</span>
+                            <span>;</span>
+                            <br>
+                            <span style="color:#4EC9B0;">Resume </span>
+                            <span style="color:#9CDCFE;">resume </span>
+                            <span>= </span>
+                            <span style="color:#C586C0;">new </span>
+                            <span style="color:#DCDCAA;">Resume </span>
+                            <span style="color:#6796E6;">(</span>
+                            <a style="color:#CE9178;" href="./misc/resume.pdf">"resume.pdf"</a>
+                            <span style="color:#6796E6;">)</span>
+                            <span>;</span>
+                            <br>
+                            <span style="color:#C586C0;">goto </span>
+                            <a href="#education" style="color:#CE9178;">"//EDU"</a>
+                            <span>;</span>
+                            <br>
+                        </ul>
+                        <span style="color:#C586C0;">}</span>
+                        <br>
+                        <span style="color:#6796E6;">void </span>
+                        <span style="color:#DCDCAA;">contacts</span>
+                        <span style="color:#C586C0;">() {</span>
+                        <ul>
+                            <span style="color:#4EC9B0;">Email </span>
+                            <span style="color:#9CDCFE;">email </span>
+                            <span>= </span>
+                            <span style="color:#C586C0;">new </span>
+                            <span style="color:#DCDCAA;">Email </span>
+                            <span style="color:#6796E6;">(</span>
+                            <a style="color:#CE9178;" href="mailto:tgdziura@gmail.com">"tgdziura@gmail.com"</a>
+                            <span style="color:#6796E6;">)</span>
+                            <span>;</span>
+                            <br>
+                            <span style="color:#4EC9B0;">vector&#60string&#62 </span>
+                            <span style="color:#9CDCFE;">hobbies </span>
+                            <span>= </span>
+                            <span style="color:#6796E6;">{</span>
+                            <ul>
+                                <a style="color:#CE9178;"
+                                    href="https://www.linkedin.com/in/thaddeusdziura/">"LinkedIn"</a>
+                                <span>,</span>
+                                <br>
+                                <a style="color:#CE9178;" href="https://github.com/thaddyD">"Github"</a>
+                                <br>
+                            </ul>
+                        </ul>
+                        <span style="color:#C586C0;">}</span>
+                    </ul>
+                    <span style="color:#ffd700;">}</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="education" class="container edu-bg edu-waves column">
+        <div class="container row">
+            <h1 class="edu-card-one card">//Education</h1>
+        </div>
+        <div id="education-grid">
+            <div class="card edu-card-two console">
+                <img class="card-img" src="./assets/img/ucdavis-crest.png">
+                <div>
+                    <h4 class="school-title">University of California, Davis</h4>
+                    <p class="degree-title">B.S. Computer Science</p>
+                    <p class="degree-title">Expected Graduation: June 2024</p>
+                </div>
+            </div>
+            <div class="card edu-card-three">
+                <div class="console">
+                    <h4 class="console-title">Relevant Coursework</h4>
+                    <ul>
+                        <li>Object-Oriented Programming in C++ (ECS 036B)</li>
+                        <li>Data Structures and Algorithms (ECS 36C)</li>
+                        <li>Linear Algebra (MAT 22A)</li>
+                        <li>Machine-Dependent Programming (ECS 50)</li>
+                        <li>Algorithm Design and Analysis (ECS 122A)</li>
+                        <li>Computer Architecture (ECS 154A)</li>
+                        <li>Probability & Statistical Modeling for Computer Science (ECS 132)*</li>
+                        <li>Machine Learning (ECS 171)*</li>
+                        <li>Computer Graphics (ECS 175)*</li>
+                        <p>*in progress</p>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="projects" class="container proj-waves column">
+        <div class="container row">
+            <h1 class="proj-card-main card">#Projects</h1>
+        </div>
+        <div id="projects-container" class="container row">
+            <div class="card proj-card-one">
+                <img class="proj-img" src="./assets/img/ethereum-crest.png">
+                <a href="https://github.com/thaddyD/Ethereum-Tax-Stack" class="degree-title">Ethereum Tax Full Stack
+                    Application</a>
+            </div>
+            <div class="card proj-card-one">
+                <img class="proj-img" src="./assets/img/discord-crest.png">
+                <a href="https://github.com/thaddyD/Discord-Trading-Alert-Bot" class="degree-title">Discord.js Stock
+                    Bot</a>
+            </div>
+            <div class="card proj-card-one">
+                <img class="proj-img" src="./assets/img/snapchat-crest.png">
+                <a href="https://github.com/thaddyD/Snapchat-Data-Analyzer" class="degree-title">Snapchat Personal Data
+                    Analyzer</a>
+            </div>
+            <div class="card proj-card-one">
+                <img class="proj-img" src="./assets/img/camera-crest.png">
+                <a href="https://thaddyd-photo-portfolio.netlify.app/" class="degree-title">Static Website Photography
+                    Portfolio</a>
+            </div>
+            <div class="card proj-card-one">
+                <img class="proj-img" src="./assets/img/windows-crest.png">
+                <a href="https://pcpartpicker.com/b/XgKBD3" class="degree-title">Custom Computer Build</a>
+            </div>
+            <div class="card proj-card-one">
+                <img class="proj-img" src="./assets/img/html-crest.jpeg">
+                <a href="#home" class="degree-title">Personal Website</a>
+            </div>
+        </div>
+    </section>
+</body>
+
 </html>
