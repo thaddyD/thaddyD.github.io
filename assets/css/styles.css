@@ -551,17 +551,17 @@ p {
 
 .poly-grid:before {
   background: url("../img/poly-grid.svg") 0 0 repeat;
-  animation: spinClock 100s infinite;
+  animation: spinClock 150s infinite;
 }
 
 .about-bg:before {
   background: url("../img/about-bg.svg") 0 0 repeat;
-  animation: spinCounter 100s infinite;
+  animation: spinCounter 150s infinite;
 }
 
 .edu-bg:before {
   background: url("../img/edu-bg.svg") 0 0 repeat;
-  animation: spinClock 100s infinite;
+  animation: spinClock 150s infinite;
 }
 
 @keyframes spinClock {
